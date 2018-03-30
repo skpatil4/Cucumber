@@ -25,5 +25,11 @@ public class Add {
 		int result = arg1/agr2;
 		return result;
 	}
+	
+	public static int square(int arg1)
+	{
+		int result = arg1 * arg1;
+		return result;
+	}
 
 }
