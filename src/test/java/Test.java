@@ -79,6 +79,7 @@ public class Test {
 				
 			}
 			Assert.assertEquals(Integer.parseInt(arg1), result);
+			System.out.println("Result"+result);
 		}
 		
 	}
