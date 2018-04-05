@@ -8,7 +8,7 @@ Feature: ATA Super Smart  Calculater
 Scenario: Calculating total bill based upon item price and quatity
 	Given Input price as "51" and Input quatity as "8"
 	When "Multiply" button is clicked
-	Then Result field should be populated with "410"
+	Then Result field should be populated with "408"
 	
 Scenario: Calculating total bill based upon flat service tax
 	Given Input price as "408" and Input quatity as "14"
